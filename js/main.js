@@ -5,6 +5,9 @@ $(document).ready(function () {
     let counterUp = $('.counter-up');
     let counterDown = $('.counter-down');
     let flourPath = $('.home-image path');
+    let modal = $('.modal');
+    let modalCloseButton = $('.modal-close-button');
+    let viewFlatsButton = $('.view-flats');
 
 
     flourPath.on("mouseover", function() {
@@ -12,6 +15,11 @@ $(document).ready(function () {
         currentFlour = $(this).attr("data-flour");
         $(".counter").text(currentFlour);
     });
+
+    flourPath.on('click', toggleModal);
+    modalCloseButton.on('click',toggleModal);
+    viewFlatsButton.on('click',toggleModal);
+
     counterUp.on('click', function(){
       if (currentFlour < 18) {
         currentFlour++;
@@ -30,5 +38,8 @@ $(document).ready(function () {
             flourPath.removeClass("current-flour")
             $(`[data-flour=${usCurrentFlour}]`).toggleClass('current-flour');
         }
-    })
+    });
+    function toggleModal() {
+        modal.toggleClass('is-open');
+    }
 });
