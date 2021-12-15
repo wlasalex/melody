@@ -8,12 +8,14 @@
     font-display: swap;
 }
 
-*{
+* {
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
 }
+
 .header {
     background-color: #635854;
     padding-top: 12px;
@@ -21,7 +23,7 @@ body {
     border-bottom: 4px solid #3596F5;
 }
 
-.navbar{
+.navbar {
     max-width: 1280px;
     margin: auto;
     display: flex;
@@ -47,13 +49,13 @@ body {
     color: #fff;
 }
 
-.navbar-contacts{
+.navbar-contacts {
     text-align: right;
 }
 
-.navbar-text{
+.navbar-text {
     display: block;
-    color:#fff;
+    color: #fff;
     margin-bottom: 4px;
     font-size: 14px;
     line-height: 16px;
@@ -63,7 +65,7 @@ body {
     font-weight: 700;
     font-size: 17px;
     line-height: 20px;
-    color:#fff;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -73,7 +75,8 @@ body {
     padding-top: 54px;
     display: flex;
 }
-.main-info{
+
+.main-info {
     flex-grow: 1;
     text-align: center;
     display: flex;
@@ -86,9 +89,10 @@ body {
 .main-image {
     margin-bottom: 50px;
 }
-.home-image path{
-     opacity: 0;
-     cursor: pointer;
+
+.home-image path {
+    opacity: 0;
+    cursor: pointer;
 }
 
 .home-image path:hover {
@@ -106,7 +110,7 @@ path.current-flour {
 }
 
 .counter-button {
-    background-color:#fff;
+    background-color: #fff;
     border: none;
     cursor: pointer;
 }
@@ -121,7 +125,7 @@ path.current-flour {
     font-weight: normal;
     font-size: 37px;
     line-height: 37px;
-    color: #635854; 
+    color: #635854;
 }
 
 .counter {
@@ -135,7 +139,7 @@ path.current-flour {
     background: #3596F5;
     border-radius: 6px;
     color: #fff;
-    border:none;
+    border: none;
     padding: 16px 36px;
     cursor: pointer;
     margin-bottom: 80px;
@@ -147,7 +151,7 @@ path.current-flour {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,7 +166,7 @@ path.current-flour {
 }
 
 .modal-dialog {
-    position:relative;
+    position: relative;
     max-width: 1000px;
     min-height: 565px;
     background-color: #fff;
@@ -171,7 +175,7 @@ path.current-flour {
 }
 
 .modal-image {
-    background-color:#EBEBEB;
+    background-color: #EBEBEB;
     width: 60%;
     text-align: center;
     padding: 50px;
@@ -181,7 +185,7 @@ path.current-flour {
     opacity: 0;
 }
 
-.flats path:hover{
+.flats path:hover {
     opacity: 1;
 }
 
@@ -242,7 +246,7 @@ path.current-flour {
 .footer {
     height: 171px;
     background: #D7D7D7;
-  
+
 
 }
 
@@ -266,13 +270,13 @@ path.current-flour {
     font-weight: 700;
     font-size: 17px;
     line-height: 20px;
-    color:#635854;
+    color: #635854;
     text-decoration: none;
 }
 
 .footer-text {
     display: block;
-    color:#635854;
+    color: #635854;
     margin-bottom: 4px;
     font-size: 14px;
     line-height: 16px;
